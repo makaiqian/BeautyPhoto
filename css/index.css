@@ -1,0 +1,32 @@
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0;
+  font-size: 0;
+  content: '';
+}
+.pic-box {
+  padding: 20px 0;
+}
+.pic-former,
+.pic-now {
+  max-width: 460px;
+}
+.pic-now {
+  margin-left: 40px;
+
+  -webkit-filter: blur(0);
+       -o-filter: blur(0);
+          filter: blur(0);
+}
+.change-blur {
+  width: 80%;
+}

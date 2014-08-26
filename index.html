@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>照片美化器</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="pic-box clearfix">
+      <img class="pic-former" src="img/cat.jpg">
+      <img class="pic-now" src="img/cat.jpg">
+    </div>
+    <div class="pic-change">
+      模糊度：
+      <progress class="change-blur js-change-value js-progress" value="0" max="6">您的浏览器不支持该页面，请下载最新的浏览器。</progress>
+      <span id="js-num-blur"></span>
+    </div>
+  </div>
+  <script src="js/lib/jquery-1.11.1.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
